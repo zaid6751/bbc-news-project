@@ -1,0 +1,945 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+#top-bar1{
+  width: 1540px;
+  height: 70px;
+  border-bottom: 1px solid #ececec;
+  margin-left: 20px;
+  float: left;
+}
+#slideup{
+  width: 100%;
+  height: 80px; 
+  float: left;
+}
+#x{
+ position: relative;
+ top: 25px;
+ left: 8px;
+}
+#slideup span{
+  position: relative;
+  top: 15px;
+  left: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  float: left;
+}
+#ss2,#ss3{
+  margin-left: 25px;
+}
+#xd{
+  width: 40px;
+  height: 60px;
+  position: relative;
+  left: 1300px;
+  cursor: pointer;
+  float: left;
+}
+#xd:hover{
+  border-bottom: 3px solid black;
+}
+#xxd{
+  width: 40px;
+  height: 20px;
+  position: relative;
+  top: 60px;
+  left: 1260px;
+  cursor: pointer;
+  float: left;
+}
+#xxd:hover{
+  border-top: 3px solid black;
+}
+#img1{
+  float: left;
+  position: relative;
+  bottom:17px;
+}
+
+#img1:hover{
+ cursor: pointer;
+}
+#img2{
+  width: 150px;
+  height: 38px;
+  margin-left: 30px;
+  float: left;
+  margin-top: 15px;
+}
+#img22{
+  margin-top: 4px;
+  float: left;
+}
+#img2:hover{
+  cursor: pointer;
+  border-bottom: 3px solid #0178ff;
+}
+#sign-in{
+  position: relative;
+  top: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  float: left;
+}
+.void{
+  width: 1px;
+  height: 25px;
+  position: relative;
+  top: 20px;
+  background-color:#d9d9d9;
+  margin-left: 10px;
+  float: left;
+}
+.same{
+  height: 30px;
+  position: relative;
+  left: 30px;
+  top: 24px;
+  float: left;
+  margin-left: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+#s1:hover{
+cursor: pointer;
+border-bottom: 3px solid black;
+}
+#s2:hover{
+cursor: pointer;
+border-bottom: 3px solid #b80000;
+}
+#s3:hover{
+cursor: pointer;
+border-bottom: 3px solid yellow;
+}
+#s4:hover{
+cursor: pointer;
+border-bottom: 3px solid #0068ff;
+}
+#s5:hover{
+cursor: pointer;
+border-bottom: 3px solid #0052a1;
+}
+#s6:hover{
+cursor: pointer;
+border-bottom: 3px solid #589e50;
+}
+#s7:hover{
+cursor: pointer;
+border-bottom: 3px solid #002856;
+}
+#s8:hover{
+cursor: pointer;
+border-bottom: 3px solid #482878;
+}
+.img3{
+width:40px;
+height: 37px;
+position: relative;
+left:60px;
+top: 16px;
+float: left;
+}
+.img3:hover{
+ cursor: pointer;
+ border-bottom:3px solid #000000 ;
+}
+#img33{
+position: relative;
+top: 6px;
+left: 9px;
+}
+#search-box{
+position: relative;
+top: 10px;
+left: 80px;
+background-color: #e6e8ea;
+padding-bottom: 15px;
+padding-top: 15px;
+padding-right: 80px;
+border: none;
+outline: none;
+float: left;
+}
+#search-bbc{
+position: relative;
+top: 22px;
+right: 130px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 13px;
+font-weight: bold;
+float: left;
+}
+#img4{
+ position: relative;
+ top: 22px;
+ right: 220px;
+}
+#top-bar2{
+width: 100%;
+height: 60px;
+background-color: #b80000;
+float: left;
+}
+#news{
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size:40px;
+font-weight: bold;
+margin-left: 18px;
+}
+#news:hover{
+cursor: pointer;
+}
+#top-bar3{
+width: 100%;
+height: 24px;
+background-color: #b80000;
+float: left;
+}
+.home{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 15px;
+font-weight: 900px;
+margin-left: 23px;
+position: relative;
+right: 5px;
+color:white;
+border-bottom: 4px solid white;
+float: left;
+}
+.samee{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 15px;
+font-weight: 900px;
+position: relative;
+left: 10px;
+color:white;
+float: left;
+padding-left:20px;
+padding-right:20px;
+border-left: 1px solid #bb454f;
+}
+.samee:hover{
+ cursor: pointer;
+ border-bottom: 4px solid white ;
+}
+.more{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 15px;
+font-weight: 900px;
+margin-left: 20px;
+color:white;
+float: left;
+}
+.home:hover{
+ cursor: pointer;
+}
+#moree{
+margin-bottom: 2px;
+}
+#top-bar4{
+width: 100%;
+height: 200px;
+background-color: #eeeeee;
+float: left;
+}
+#add{
+position: relative;
+left: 1210px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 14px;
+font-weight: bold;
+color: #333333;
+}
+#add:hover{
+ cursor: pointer;
+ border-bottom: 1px solid #333333;
+}
+#top-bar5{
+width: 100%;
+height: 420px;
+cursor: pointer;
+float: left;
+}
+#box1{
+width: 300px;
+height: 450px;
+float: left;
+}
+#box1-sp1{
+color: #292826;
+font-size: 40px;
+font-weight: 50px;
+position: relative;
+left: 15px;
+}
+#box1-sp2{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: #5a5a5a; 
+font-weight: 10px;
+font-size: 20px;
+position: relative;
+top: 20px;
+left: 15px;
+}
+
+#box2{
+  width: 500px;
+  height: 450px;
+float: left;
+}
+#box3,#box4{
+  width: 300px;
+  height: 450px;
+  margin-left: 20px;
+  float: left;
+}
+#box3-sp1,#box4-sp1{
+  color: black;
+  font-size: 25px;
+  font-weight: 50px;
+}
+#box3-sp2,#box4-sp2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #5a5a5a; 
+  font-weight: 10px;
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+  }
+ 
+#all{
+  position: relative;
+  top: 30px;
+  left:15px;
+}
+#all2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 20px;
+  left:px;
+}
+#watch{
+  position: relative;
+  top: 4px;
+}
+
+#top-bar6{
+ width: 100%;
+ height: 20px;
+ float: left;
+}
+.top-bar7{
+  width: 100%;
+  height: 480px;
+  float: left;
+  border-bottom:2px solid #d5d0cd;
+}
+.top-bar7 .box1{
+  width: 300px;
+  height: 450px;
+  margin-left: 20px;
+  cursor: pointer;
+  float: left;
+}
+.top-bar7 .box1 .spn1{
+  color: black;
+  font-size: 25px;
+  font-weight: 50px;
+}
+.top-bar7 .box1 .spn2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #5a5a5a; 
+  font-weight: 10px;
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+}
+
+
+.top-bar7 .box2{
+  width: 300px;
+  height: 450px;
+  margin-left: 20px;
+  cursor: pointer;
+  float: left;
+}
+.top-bar7 .box2 .spn1{
+  color: black;
+  font-size: 25px;
+  font-weight: 50px;
+}
+.top-bar7 .box2 .spn2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #5a5a5a; 
+  font-weight: 10px;
+  font-size: 20px;
+  position: relative;
+  top:10px;
+}
+
+.top-bar7 .box3{
+  width: 300px;
+  height: 450px;
+  margin-left: 20px;
+  cursor: pointer;
+  float: left;
+}
+.top-bar7 .box3 .spn1{
+  color: black;
+  font-size: 25px;
+  font-weight: 50px;
+}
+.top-bar7 .box3 .spn2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #5a5a5a; 
+  font-weight: 10px;
+  font-size: 20px;
+  position: relative;
+  top:10px;
+  float: left;
+}
+
+.top-bar7 .box4{
+  width: 300px;
+  height: 450px;
+  margin-left: 20px;
+  cursor: pointer;
+  float: left;
+}
+.top-bar7 .box4 .spn1{
+  color: black;
+  font-size: 25px;
+  font-weight: 50px;
+}
+.top-bar7 .box4 .spn2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #5a5a5a; 
+  font-weight: 10px;
+  font-size: 20px;
+  position: relative;
+  top:10px;
+  float: left;
+}
+.top-bar7 .box5{
+  width: 270px;
+  height: 450px;
+  background-color: #eeeeee;
+  margin-left: 20px;
+  float: left;
+}
+.top-bar7 .box5 .spn1{
+position: relative;
+left: 150px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 14px;
+font-weight: bold;
+color: #333333;
+}
+
+.top-bar8{
+width: 100%;
+height: 340px;
+float: left;
+}
+
+.top-bar8 .box1{
+  width: 290px;
+  height: 150px;
+  margin-left: 20px;
+  cursor: pointer;
+  float: left;
+}
+.top-bar8 .box1 .spn{
+  color: black;
+  font-size: 25px;
+  font-weight: 50px;
+}
+
+.top-bar8 .box2{
+  width: 290px;
+  height: 150px;
+  margin-left: 20px;
+  cursor: pointer;
+  float: left;
+}
+.top-bar8 .box2 .spn{
+  color: black;
+  font-size: 25px;
+  font-weight: 50px;
+}
+
+.top-bar8 .box3{
+  width: 290px;
+  height: 150px;
+  margin-left: 20px;
+  cursor: pointer;
+  float: left;
+}
+.top-bar8 .box3 .spn{
+  color: black;
+  font-size: 25px;
+  font-weight: 50px;
+}
+
+.top-bar8 .box4{
+  width: 290px;
+  height: 150px;
+  margin-left: 20px;
+  cursor: pointer;
+  float: left;
+}
+.top-bar8 .box4 .spn{
+  color: black;
+  font-size: 25px;
+  font-weight: 50px;
+}
+
+.top-bar8 .box5{
+  width: 290px;
+  height: 150px;
+  margin-left: 20px;
+  cursor: pointer;
+  float: left;
+}
+.top-bar8 .box5 .spn{
+  color: black;
+  font-size: 25px;
+  font-weight: 50px;
+}
+
+
+.top-bar8 .box6 , .top-bar8 .box7 ,.top-bar8 .box8{
+  width: 290px;
+  height: 150px;
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  float: left;
+}
+.top-bar8 .box6 .spn , .top-bar8 .box7 .spn ,.top-bar8 .box8 .spn{
+  color: black;
+  font-size: 25px;
+  font-weight: 50px;
+}
+
+.top-bar9{
+  width: 100%;
+  height: 80px;
+  float: left;
+}
+
+.top-bar9 .spn , .top-bar11 .spn{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  float: left;
+}
+hr{
+  position: relative;
+  top: 40px;
+  left: 40px;
+  width: 1320px; 
+  float: left;
+}
+.top-bar10{
+  width: 100%;
+  height: 450px;
+  float: left;
+}
+.top-bar10 .box1{
+  width: 290px;
+  height: 200px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  float: left;
+}
+.top-bar10 .box1 .spn{
+ font-size: 20px;
+}
+
+.top-bar10 .box2{
+  width: 290px;
+  height: 200px;
+  margin-left: 20px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  float: left;
+}
+.top-bar10 .box2 .spn{
+  font-size: 20px;
+ }
+ .top-bar10 .box3{
+  width: 290px;
+  height: 200px;
+  margin-left: 20px;
+  position: relative;
+  top: 40px;
+  float: left;
+}
+.top-bar11{
+  width: 100%;
+  height: 80px;
+  float: left;
+}
+.top-bar12{
+  width: 100%;
+  height: 150px;
+  float: left;
+}
+
+h1{
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: 500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #b80000;
+}
+
+.ar{
+  position: relative;
+  bottom: 40px;
+  left: 50px;
+  font-size: 20px;
+}
+.heading-div{
+  width: 153px;
+  height: 30px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #404040;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-bottom: 4px solid #b80000;
+}
+.image-div{
+  width: 1200px;
+  height: 900px;
+  position: relative;
+  top: 60px;
+  right: 155px;
+  float: left;
+}
+.h2{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.tob-bar-toggle{
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  float: left;
+  cursor: pointer;
+  border-bottom: 4px solid #b80000;
+}
+.more{
+  cursor: pointer;
+}
+.tob-bar-toggle div{
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  float: left;
+}
+.tob-bar-toggle .div{
+  color: white;
+  margin-top: 24px;
+  margin-left: 200px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-left: 1px solid #464646;
+  float: left;
+}
+.box3 span{
+  font-size: 20px;
+}
+.top-bar12 div{
+  width: 250px;
+  height: 150px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-left: 30px;
+  color: #000000;
+}
+.top-bar12 #spn{
+  font-size: 20px;
+
+  position: relative;
+  bottom: 50px;
+  left: 10px;
+}
+.top-bar12 #spn:hover{
+  cursor: pointer;
+  border-bottom: 2px solid  #b80000;
+}
+.top-bar12 h1{
+position: relative;
+right: 40px;
+}
+.top-bar13{
+  width: 100%;
+  height: 500px;
+  float: left;
+}
+.d1{
+  width: 490px;
+  height: 400px;
+  position: relative;
+  left: 20px;
+  cursor: pointer;
+  float: left;
+}
+  .d2{
+    width: 490px;
+    height: 400px;
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+    float: left;
+  }
+
+.top-bar13 .d1 span , .top-bar13 .d2 span{
+  font-size: 30px;
+}
+.top-bar14{
+  width: 100%;
+  height: 80px;
+  margin-top: 100px;
+  float: left;
+}
+.top-bar15{
+  width: 100%;
+  height: 140px;
+  float: left;
+}
+.top-bar16{
+  width: 100%;
+  height: 150px;
+  float: left;
+}
+.twit{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+}
+.face{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+}
+.insta{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+}
+.nd{
+  width: 400px;
+  height: 110px;
+  position: relative;
+  top: 10px;
+  left: 200px;
+  margin-left: 30px;
+  float: left;
+  border-left: 1px solid #d5d0cd;
+}
+
+.top-bar16 .div1{
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  left: 100px;
+  bottom: 50px;
+  border-left: 1px solid black;
+  padding-left: 10px;
+}
+.top-bar16 .div2{
+  font-size: 20px;
+  font-weight:500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #5a5a5a;
+  position: relative;
+  bottom: 45px;
+  padding-left: 20px;
+}
+.top-bar16 img{
+  padding-left: 20px;
+}
+.top-bar17{
+  width: 100%;
+  height: 305px;
+  background-color: #4c4c4c;
+  float: left;
+  color: white;
+}
+.top-bar17 h2{
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.top-bar17 .div1{
+  width: 1500px;
+  height: 90px;
+  position: relative;
+  top: 30px;
+  left: 20px;
+  border-bottom: 1px solid #949494;
+  float: left;
+}
+.top-bar17 .div2{
+  width: 200px;
+  height: 90px;
+ float: left;
+}
+.top-bar17 .div3{
+  width: 200px;
+  height: 90px;
+  margin-left: 30px;
+  border-left: 1px solid #949494;
+  float: left;
+}
+.top-bar17 .div2 .spn1{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  float: left;
+}
+.top-bar17 .div2 .spn2{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 40px;
+  right: 55px;
+  float: left;
+}
+.top-bar17 .div3 .spn1{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+  float: left;
+}
+.top-bar17 .div3 .spn2{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 40px;
+  right: 50px;
+ 
+  float: left;
+}
+.top-bar17 .div3 .spn11{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+  float: left;
+}
+.top-bar17 .div3 .spn22{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 40px;
+  right: 38px;
+
+  float: left;
+}
+.top-bar17 .div3 .spn111{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+  float: left;
+}
+.top-bar17 .div3 .spn222{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 40px;
+  right: 85px;
+  padding-left: 5px;
+  float: left;
+}
+.div11{
+  width: 1500px;
+  height: 40px;
+  margin-top: 60px;
+  float: left;
+}
+.div11 .spn1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  position: relative;
+  top: 8px;
+  cursor: pointer;
+  float: left;
+}
+.div11 span{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  position: relative;
+  top: 8px;
+  margin-left: 20px;
+  cursor: pointer;
+  float: left;
+}
+.div11 .spn2{
+  font-weight: bold;
+}
+.div11 p{
+ position: relative;
+ top: 20px;
+}
+.top-bar17 .div22{
+  width: 1500px;
+  height: 40px;
+  margin-top: 20px;
+  float: left;
+}
+.top-bar17 .div22 .spn2{
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.top-bar17 .div22 span{
+  font-weight:500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+}
+a{
+  color: black;
+}
